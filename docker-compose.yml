@@ -1,0 +1,11 @@
+services:
+  app:
+    container_name: aoc_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - .:/var/aoc
