@@ -8,7 +8,7 @@ def main():
         if day.isnumeric() is False:
             raise Exception('Input must be a number');
         cookies = {'session': get_key('sessionId')}
-        r = requests.get(f"https://adventofcode.com/2020/day/{day}/input", cookies=cookies);
+        r = requests.get(f"https://adventofcode.com/2024/day/{day}/input", cookies=cookies);
         r.raise_for_status()
         write_to_file(day, r.text)
     except Exception as e:
