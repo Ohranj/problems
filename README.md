@@ -7,7 +7,7 @@ docker compose exec app bash
 
 ## AoC
 
-Create an aoc_2024/config.txt file and include your aoc session cookie as per:
+Create an aoc_2024/config.txt file and include the aoc session cookie as per:
 ```
 sessionId=[value goes here]
 ```
@@ -15,4 +15,10 @@ sessionId=[value goes here]
 ```
 cd aoc_2024
 python3 fetch.py
+```
+
+
+## Leetcode
+```
+cd leetcode
 ```
