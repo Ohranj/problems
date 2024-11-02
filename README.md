@@ -4,6 +4,9 @@ docker compose up
 docker compose exec app bash
 ```
 
+
+## AoC
+
 Create an aoc_2024/config.txt file and include your aoc session cookie as per:
 ```
 sessionId=[value goes here]
