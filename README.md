@@ -6,7 +6,7 @@ docker compose exec app bash
 
 # Boilderplate
 
-## AoC
+### AoC
 
 Create an aoc_2024/config.txt file and include the aoc session cookie as per:
 ```
@@ -19,7 +19,7 @@ python3 fetch.py
 ```
 
 
-## Leetcode
+### Leetcode
 ```
 cd leetcode
 ```
