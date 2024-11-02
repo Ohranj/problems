@@ -4,6 +4,7 @@ docker compose up
 docker compose exec app bash
 ```
 
+# Boilderplate
 
 ## AoC
 
@@ -21,4 +22,12 @@ python3 fetch.py
 ## Leetcode
 ```
 cd leetcode
+```
+
+
+
+
+# My Approaches
+```
+Checkout to the dev branch
 ```
