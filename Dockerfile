@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 ARG user=alex
-ARG work_dir=/var/aoc
+ARG work_dir=/var/problems
 
 WORKDIR $work_dir
 

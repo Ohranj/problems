@@ -1,6 +1,6 @@
 services:
   app:
-    container_name: aoc_app
+    container_name: problems_app
     build:
       context: .
       dockerfile: Dockerfile
@@ -8,4 +8,4 @@ services:
     stdin_open: true
     restart: unless-stopped
     volumes:
-      - .:/var/aoc
+      - .:/var/problems
