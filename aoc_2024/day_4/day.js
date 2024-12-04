@@ -1,9 +1,7 @@
 
 const fs = require('fs').promises;
 
-
 let arr = [];
-
 
 const getData = async() => {
    const data = (await fs.readFile('./day_4/input.txt', {encoding: 'utf-8'}))
